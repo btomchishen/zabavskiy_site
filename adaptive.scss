@@ -1,0 +1,1227 @@
+@media (min-width: 500px) {
+    #button {
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .work_triangle:after {
+        margin-top: -199px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-bottom: 200px solid #000;
+        border-left: 100vw solid transparent;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .work_inner_row div:last-child {
+        margin-right: 0;
+    }
+    .works {
+        margin-top: 100px;
+    }
+    .about{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .work_header {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .work_triangle:after {
+        margin-top: -169px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-bottom: 170px solid #000;
+        border-left: 100vw solid transparent;
+    }
+    .mobilenav_social {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 768px;
+    }
+
+    .header_social {
+        margin-left: 57%;
+    }
+
+    .about_inner {
+        display: block;
+    }
+
+    .about_photo {
+        margin-left: -35px;
+        margin-right: 0;
+    }
+
+    .about_text {
+        margin-right: 0;
+    }
+
+    .middle_text {
+        margin-top: 175px;
+    }
+
+    .info_inner {
+        display: block;
+    }
+
+    .info_text_name {
+        margin-top: 100px;
+    }
+
+    .info_text_profession {
+        text-align: center;
+    }
+
+    .info_text_achievements {
+        width: 464px;
+        margin-top: 31px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info_text_achieve {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info_photo_triangle:after {
+        left: 138px;
+    }
+
+    .info_photo {
+        margin-top: 70px;
+    }
+
+    .middle_text {
+        margin-top: 50px;
+    }
+
+    .work {
+        margin-top: 100px;
+    }
+
+    .work_triangle:after {
+        margin-top: -119px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-bottom: 120px solid #000;
+        border-left: 100vw solid transparent;
+    }
+    .mobilenav_social {
+        margin-top: 0px;
+    }
+    .logotype {
+        font-size: 120px;
+        font-weight: 700;
+    }
+
+    .design {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .style {
+        font-size: 46px;
+        font-weight: 700;
+    }
+
+    .visitki {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .present {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banners {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .bouqlets {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .flyers {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .social {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    $sizes: (
+        1: (
+            "max-width": 500px,
+            "width": 850px,
+            "top": 20px,
+            "left": 250px,
+        ),
+        2: (
+            "max-width": 122px,
+            "top": 80px,
+            "left": 20px,
+        ),
+        3: (
+            "max-width": 200px,
+            "width": 550px,
+            "top": 225px,
+            "right": 550px,
+            "text-align": left,
+        ),
+        4: (
+            "max-width": 196px,
+            "top": 222.5px,
+            "right": 60px,
+        ),
+        5: (
+            "max-width": 196px,
+            "top": 350px,
+            "left": 300px,
+        ),
+        6: (
+            "max-width": 196px,
+            "top": -50px,
+            "left": 425px,
+        ),
+        7: (
+            "max-width": 122px,
+            "top": -45px,
+            "left": 125px,
+        ),
+        8: (
+            "max-width": 196px,
+            "top": 30px,
+            "left": 55px,
+        ),
+        9: (
+            "max-width": 500px,
+            "width": 500px,
+            "top": 300px,
+            "left": 250px,
+            "transform": rotate(0deg),
+        ),
+    );
+
+    main {
+        position: relative;
+        margin: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .cloud {
+        position: relative;
+        margin: 8rem auto;
+        height: 520px;
+
+        h3 {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                transition: 0.2s;
+                &:hover {
+                    text-decoration: none;
+                }
+
+                .logo {
+                    position: relative;
+                    display: block;
+                    color: #fff;
+                }
+
+                @for $i from 1 through 9 {
+                    &:nth-child(#{$i}) {
+                        max-width: map-get(map-get($sizes, $i), "max-width");
+                        transform: map-get(map-get($sizes, $i), "transform");
+                        text-align: map-get(map-get($sizes, $i), "text-align");
+                        width: map-get(map-get($sizes, $i), "width");
+                        top: map-get(map-get($sizes, $i), "top");
+                        left: map-get(map-get($sizes, $i), "left");
+                        right: map-get(map-get($sizes, $i), "right");
+                        bottom: map-get(map-get($sizes, $i), "bottom");
+
+                        &:hover {
+                            transform: scale(1.2);
+                            text-decoration: none;
+                        }
+                        &:nth-child(9):hover {
+                            transform: rotate(0deg);
+                        }
+
+                        .logo {
+                            animation: float 6s ease-in-out infinite -#{$i}s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .email a {
+        display: table;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background: url(images/bg.png) no-repeat center 0;
+        background-size: 80px 80px;
+        font: 18px/300px "HelveticaNeue_Light", Arial;
+        letter-spacing: 0.05em;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .email a {
+        text-decoration: none;
+        background-size: 300px 300px;
+        color: #fff;
+        opacity: 1;
+    }
+    .email span {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        margin-left: -21px;
+        background: url(images/mail.png) no-repeat center 0;
+        background-size: 43px 30px;
+        width: 43px;
+        height: 30px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .email a span {
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+    .email i {
+        display: block;
+        position: absolute;
+        top: 190px;
+        left: 50px;
+        right: 50px;
+        font: 12px/20px "HelveticaNeue_Light", Arial;
+        color: #a6a6a6;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .email a i {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 575px;
+    }
+
+    .header_social {
+        display: none;
+    }
+
+    .header_menu {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .about_text {
+        width: 550px;
+        margin-right: 0;
+    }
+
+    .about_text_header {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .about_text_main {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .middle_text {
+        margin-top: 50px;
+    }
+
+    .info_photo {
+        margin-left: 50px;
+    }
+
+    .info_photo_triangle:after {
+        left: 15px;
+    }
+
+    .work {
+        margin-top: 100px;
+    }
+
+    .work_triangle:after {
+        margin-top: -99px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #000;
+        border-left: 100vw solid transparent;
+    }
+    .mobilenav_social {
+        margin-top: 0px;
+    }
+    .logotype {
+        font-size: 75px;
+        font-weight: 700;
+    }
+
+    .design {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .style {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .visitki {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .present {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .banners {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .bouqlets {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .flyers {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .social {
+        font-size: 16px;
+        font-weight: 700;
+        transform: rotate("90deg");
+    }
+
+    .email a {
+        text-decoration: none;
+        background-size: 300px 300px;
+        color: #fff;
+        opacity: 1;
+    }
+
+    $sizes: (
+        1: (
+            "max-width": 400px,
+            "width": 850px,
+            "top": -10px,
+            "left": 165px,
+        ),
+        2: (
+            "max-width": 122px,
+            "top": 100px,
+            "left": 35px,
+        ),
+        3: (
+            "max-width": 300px,
+            "width": 550px,
+            "top": 215px,
+            "right": 85px,
+            "text-align": right,
+        ),
+        4: (
+            "max-width": 196px,
+            "top": 260px,
+            "right": 375px,
+        ),
+        5: (
+            "max-width": 196px,
+            "top": 225px,
+            "left": 65px,
+        ),
+        6: (
+            "max-width": 196px,
+            "top": 50px,
+            "left": 70px,
+        ),
+        7: (
+            "max-width": 122px,
+            "top": 275px,
+            "left": 240px,
+        ),
+        8: (
+            "max-width": 196px,
+            "top": 0px,
+            "left": 70px,
+        ),
+        9: (
+            "max-width": 300px,
+            "width": 500px,
+            "top": 55px,
+            "left": 190px,
+            "transform": rotate(0deg),
+            "text-align": right,
+        ),
+    );
+
+    main {
+        position: relative;
+        margin: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .cloud {
+        position: relative;
+        margin: 8rem auto;
+        height: 520px;
+
+        h3 {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                transition: 0.2s;
+                &:hover {
+                    text-decoration: none;
+                }
+
+                .logo {
+                    position: relative;
+                    display: block;
+                    color: #fff;
+                }
+
+                @for $i from 1 through 9 {
+                    &:nth-child(#{$i}) {
+                        max-width: map-get(map-get($sizes, $i), "max-width");
+                        transform: map-get(map-get($sizes, $i), "transform");
+                        text-align: map-get(map-get($sizes, $i), "text-align");
+                        width: map-get(map-get($sizes, $i), "width");
+                        top: map-get(map-get($sizes, $i), "top");
+                        left: map-get(map-get($sizes, $i), "left");
+                        right: map-get(map-get($sizes, $i), "right");
+                        bottom: map-get(map-get($sizes, $i), "bottom");
+
+                        &:hover {
+                            transform: scale(1.2);
+                            text-decoration: none;
+                        }
+                        &:nth-child(9):hover {
+                            transform: rotate(0deg);
+                        }
+                        .logo {
+                            animation: float 6s ease-in-out infinite -#{$i}s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .email a {
+        display: table;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background: url(images/bg.png) no-repeat center 0;
+        background-size: 80px 80px;
+        font: 18px/300px "HelveticaNeue_Light", Arial;
+        letter-spacing: 0.05em;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .email a {
+        text-decoration: none;
+        background-size: 300px 300px;
+        color: #fff;
+        opacity: 1;
+    }
+    .email span {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        margin-left: -21px;
+        background: url(images/mail.png) no-repeat center 0;
+        background-size: 43px 30px;
+        width: 43px;
+        height: 30px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .email a span {
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+    .email i {
+        display: block;
+        position: absolute;
+        top: 190px;
+        left: 50px;
+        right: 50px;
+        font: 12px/20px "HelveticaNeue_Light", Arial;
+        color: #a6a6a6;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .email a i {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 375px;
+    }
+
+    .work_item img {
+        width: 250px;
+    }
+
+    .work_inner_row div {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .work_inner_row .work_header {
+        margin: 0;
+    }
+
+    .header_social {
+        display: none;
+    }
+
+    .header_menu {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .about_text {
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .about_text_header {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .about_text_main {
+        width: 375px;
+        margin-right: 0;
+    }
+
+    .middle_text {
+        margin-top: 75px;
+    }
+
+    .info_text_name {
+        font-size: 45px;
+    }
+
+    .info_text_achievements {
+        width: 375px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info_text_achieve {
+        justify-content: center;
+    }
+
+    .info_text_achieve_header {
+        text-align: center;
+    }
+
+    .info_text_achieve_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info_photo {
+        width: 346px;
+        margin-left: 15px;
+    }
+
+    .info_photo img {
+        width: 346px;
+    }
+
+    .info_photo_mob {
+        display: block;
+    }
+
+    .info_photo_pc {
+        display: none;
+    }
+
+    .info_photo_triangle:after {
+        left: 0;
+        border-left: 347px solid transparent;
+        margin-top: -49px;
+    }
+
+    .social_hidden {
+        margin-left: -25px;
+    }
+
+    .work {
+        margin-top: 100px;
+    }
+
+    .work_triangle:after {
+        margin-top: -74px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-bottom: 75px solid #000;
+        border-left: 100vw solid transparent;
+    }
+
+    .logotype {
+        font-size: 56px;
+        font-weight: 700;
+    }
+
+    .design {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .style {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .visitki {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .present {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .banners {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .bouqlets {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .flyers {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .email a {
+        display: table;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        background: url(images/bg.png) no-repeat center 0;
+        background-size: 80px 80px;
+        font: 18px/300px "HelveticaNeue_Light", Arial;
+        letter-spacing: 0.05em;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .email a {
+        text-decoration: none;
+        background-size: 300px 300px;
+        color: #fff;
+        opacity: 1;
+    }
+    .email span {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        margin-left: -21px;
+        background: url(images/mail.png) no-repeat center 0;
+        background-size: 43px 30px;
+        width: 43px;
+        height: 30px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .email a span {
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+    .email i {
+        display: block;
+        position: absolute;
+        top: 190px;
+        left: 50px;
+        right: 50px;
+        font: 12px/20px "HelveticaNeue_Light", Arial;
+        color: #a6a6a6;
+        opacity: 0;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .email a i {
+        opacity: 1;
+    }
+    .mobilenav_social {
+        margin-top: 0px;
+    }
+    .social {
+        font-size: 30px;
+        font-weight: 700;
+        transform: rotate(0deg);
+    }
+    $sizes: (
+        1: (
+            "max-width": 300px,
+            "width": 850px,
+            "top": 225px,
+            "left": 100px,
+        ),
+        2: (
+            "max-width": 122px,
+            "top": 150px,
+            "left": 0px,
+        ),
+        3: (
+            "max-width": 200px,
+            "width": 550px,
+            "top": 50px,
+            "right": 150px,
+            "text-align": left,
+        ),
+        4: (
+            "max-width": 196px,
+            "top": 375px,
+            "right": 50px,
+        ),
+        5: (
+            "max-width": 196px,
+            "top": 110px,
+            "left": 175px,
+        ),
+        6: (
+            "max-width": 196px,
+            "top": 320px,
+            "left": 0px,
+        ),
+        7: (
+            "max-width": 122px,
+            "top": 0px,
+            "left": 0px,
+        ),
+        8: (
+            "max-width": 196px,
+            "top": 250px,
+            "left": 0px,
+        ),
+        9: (
+            "max-width": 300px,
+            "width": 500px,
+            "top": -50px,
+            "left": 50px,
+            "transform": rotate(0deg),
+            "text-align": right,
+        ),
+    );
+
+    main {
+        position: relative;
+        margin: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .cloud {
+        position: relative;
+        margin: 8rem auto;
+        height: 520px;
+
+        h3 {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                transition: 0.2s;
+                &:hover {
+                    text-decoration: none;
+                }
+
+                .logo {
+                    position: relative;
+                    display: block;
+                    color: #fff;
+                }
+
+                @for $i from 1 through 9 {
+                    &:nth-child(#{$i}) {
+                        max-width: map-get(map-get($sizes, $i), "max-width");
+                        transform: map-get(map-get($sizes, $i), "transform");
+                        text-align: map-get(map-get($sizes, $i), "text-align");
+                        width: map-get(map-get($sizes, $i), "width");
+                        top: map-get(map-get($sizes, $i), "top");
+                        left: map-get(map-get($sizes, $i), "left");
+                        right: map-get(map-get($sizes, $i), "right");
+                        bottom: map-get(map-get($sizes, $i), "bottom");
+
+                        &:hover {
+                            transform: scale(1.2);
+                            text-decoration: none;
+                        }
+                        &:nth-child(9):hover {
+                            transform: rotate(0deg);
+                        }
+
+                        .logo {
+                            animation: float 6s ease-in-out infinite -#{$i}s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 300px;
+    }
+    section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .show{
+        margin-top: 40px;
+    }
+    .work{
+        padding-left: 10px;
+    }
+    .menu_icon {
+        margin-right: 15px;
+    }
+    .about_photo img {
+        margin-left: -75px;
+    }
+    .about_text_main {
+        width: 275px;
+    }
+    .middle_text_inner {
+        width: 275px;
+    }
+    .info-text {
+        width: 275px;
+    }
+    .info_text_name {
+        font-size: 40px;
+        width: 275px;
+    }
+    .info_text_profession {
+        width: 275px;
+    }
+    .info_text_achievements {
+        width: 275px;
+        margin-left: 0;
+    }
+    .info_photo img {
+        width: 275px;
+    }
+    .mobilenav_social {
+        margin-top: 0;
+    }
+    #button {
+        right: 30px;
+    }
+    .email a {
+        margin-left: 0;
+    }
+    .header_inner {
+        padding-left: 15px;
+    }
+    .work_header {
+        font-size: 40px;
+        width: 275px;
+    }
+    .work_inner_row {
+        width: 300px;
+    }
+    .more {
+        width: 300px;
+    }
+    .follow {
+        width: 275px;
+    }
+    .footer_social {
+        width: 275px;
+        margin-left: 15px;
+    }
+    .logotype {
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .design {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .style {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .visitki {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .present {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .banners {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .bouqlets {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .flyers {
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    .social {
+        font-size: 26px;
+        font-weight: 700;
+        transform: rotate(0deg);
+    }
+    $sizes: (
+        1: (
+            "max-width": 200px,
+            "width": 850px,
+            "top": 225px,
+            "left": 125px,
+        ),
+        2: (
+            "max-width": 122px,
+            "top": 150px,
+            "left": 0px,
+        ),
+        3: (
+            "max-width": 200px,
+            "width": 550px,
+            "top": 50px,
+            "right": 100px,
+            "text-align": left,
+        ),
+        4: (
+            "max-width": 196px,
+            "top": 375px,
+            "right": 100px,
+        ),
+        5: (
+            "max-width": 196px,
+            "top": 110px,
+            "left": 100px,
+        ),
+        6: (
+            "max-width": 196px,
+            "top": 320px,
+            "left": 0px,
+        ),
+        7: (
+            "max-width": 122px,
+            "top": 0px,
+            "left": 0px,
+        ),
+        8: (
+            "max-width": 196px,
+            "top": 250px,
+            "left": 0px,
+        ),
+        9: (
+            "max-width": 300px,
+            "width": 500px,
+            "top": -35px,
+            "left": -25px,
+            "transform": rotate(0deg),
+            "text-align": right,
+        ),
+    );
+
+    main {
+        position: relative;
+        margin: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .cloud {
+        position: relative;
+        margin: 8rem auto;
+        height: 520px;
+
+        h3 {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                transition: 0.2s;
+                &:hover {
+                    text-decoration: none;
+                }
+
+                .logo {
+                    position: relative;
+                    display: block;
+                    color: #fff;
+                }
+
+                @for $i from 1 through 9 {
+                    &:nth-child(#{$i}) {
+                        max-width: map-get(map-get($sizes, $i), "max-width");
+                        transform: map-get(map-get($sizes, $i), "transform");
+                        text-align: map-get(map-get($sizes, $i), "text-align");
+                        width: map-get(map-get($sizes, $i), "width");
+                        top: map-get(map-get($sizes, $i), "top");
+                        left: map-get(map-get($sizes, $i), "left");
+                        right: map-get(map-get($sizes, $i), "right");
+                        bottom: map-get(map-get($sizes, $i), "bottom");
+
+                        &:hover {
+                            transform: scale(1.2);
+                            text-decoration: none;
+                        }
+                        &:nth-child(9):hover {
+                            transform: rotate(0deg);
+                        }
+
+                        .logo {
+                            animation: float 6s ease-in-out infinite -#{$i}s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

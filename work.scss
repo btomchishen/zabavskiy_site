@@ -1,0 +1,133 @@
+.work_title {
+    font-size: 50px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    margin-right: -85px;
+}
+
+.work_title:hover{
+    cursor: default;
+}
+
+.work_inner_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.work_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 530px;
+    height: 255px;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.work_item {
+    width: 250px;
+    height: 250px;
+}
+
+.work_item img {
+    width: 250px;
+    height: 250px;
+}
+
+.more {
+    margin-top: 74px;
+    margin-bottom: 74px;
+    font-family: "Montserrat";
+    font-size: 9px;
+}
+
+.header_social {
+    margin-left: 50%;
+}
+$bg: rgba(0, 0, 0, 0.2);
+
+.bg,
+.overlay {
+    text-align: center;
+    height: 100%;
+}
+
+img,
+.overlay {
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+.bg {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    max-width: 31%;
+    position: relative;
+    margin: 0.5%;
+    img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: $bg;
+        color: #fff;
+        opacity: 0;
+        h2 {
+            padding-top: 30%;
+            font-family: "Droid Serif", serif;
+        }
+        p {
+            font-family: "Julius Sans One", sans-serif;
+        }
+    }
+    &:hover {
+        .overlay {
+            opacity: 0.7;
+            background-color: black;
+        }
+        img {
+            -webkit-filter: blur(2px);
+            filter: blur(2px);
+        }
+    }
+}
+.work-photos{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1148px) {
+    .bg {
+        max-width: 48%;
+        margin: 1%;
+    }
+    .work-photos{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bg {
+        float: none;
+        max-width: 80%;
+        margin: 1% auto;
+    }
+    
+}
+
+
+@import "header";
+@import "adaptive";
