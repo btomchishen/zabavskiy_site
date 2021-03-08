@@ -374,6 +374,7 @@ img {
 
 .mobilenav_social {
   margin-top: 100px;
+  margin-left: 25px;
 }
 
 .mobilenav_social img {
@@ -409,6 +410,10 @@ img {
 
   .works {
     margin-top: 100px;
+  }
+
+  .about {
+    height: 80vh;
   }
 }
 @media screen and (max-width: 1025px) {
@@ -1267,6 +1272,10 @@ img {
     border-left: 100vw solid transparent;
   }
 
+  .mobilenav_social {
+    margin-left: 25px;
+  }
+
   .logotype {
     font-size: 56px;
     font-weight: 700;
@@ -1559,17 +1568,39 @@ img {
   }
 }
 @media screen and (max-width: 375px) {
+  #button {
+    right: 60px;
+  }
+
+  .menu_icon {
+    position: fixed;
+    top: 42px;
+    left: 50vw;
+  }
+
+  .mobilenav_social {
+    margin-left: 25px;
+  }
+
+  .container {
+    width: 300px;
+  }
+
   section {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .menu_icon {
-    margin-right: 15px;
+  .show {
+    margin-top: 40px;
   }
 
-  .about_photo img {
-    margin-left: -75px;
+  .work {
+    padding-left: 10px;
+  }
+
+  .menu_icon {
+    margin-right: 15px;
   }
 
   .about_text_main {
@@ -1620,24 +1651,6 @@ img {
 
   .work_header {
     font-size: 40px;
-    width: 275px;
-  }
-
-  .work_inner_row {
-    width: 300px;
-  }
-
-  .more {
-    width: 300px;
-  }
-
-  .follow {
-    width: 275px;
-  }
-
-  .footer_social {
-    width: 275px;
-    margin-left: 15px;
   }
 
   .logotype {
@@ -1763,7 +1776,7 @@ img {
     text-align: left;
     width: 550px;
     top: 50px;
-    right: 150px;
+    right: 100px;
   }
   .cloud ul li:nth-child(3):hover {
     transform: scale(1.2);
@@ -1867,6 +1880,11 @@ img {
   }
   .cloud ul li:nth-child(9) .logo {
     animation: float 6s ease-in-out infinite -9s;
+  }
+}
+@media (max-width: 320px) {
+  #button {
+    right: 60px;
   }
 }
 
